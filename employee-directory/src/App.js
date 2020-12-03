@@ -2,7 +2,7 @@ import './App.css';
 import Directory from "./components/Directory.js";
 
 function App() {
-  return <Directory/>;
+	return <Directory/>;
 }
 
 export default App;
