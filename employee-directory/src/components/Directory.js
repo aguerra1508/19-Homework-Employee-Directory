@@ -1,24 +1,49 @@
 import React from "react";
+import { MDBTable, MDBTableBody, MDBTableHead } from 'mdbreact';
 
-function Directory(props){
-    return (
-			<table>
-  <tr>
-    <th>ID:</th>
-		<th>First Name:</th>
-    <th>Last Name:</th>
-    <th>Job Title</th>
-  </tr>
-	{props.employees.map(employees => (
-		<tr>
-			<td>{employees.id}</td>
-      <td>{employees.firstName}</td>
-			<td>{employees.lastName}</td>
-			<td>{employees.jobTitle}</td>
-		</tr>
-      ))}
-</table>
-		)
-  };
+const Directory = (props) => {
+	const data = {
+		columns: [{
+				label: 'Employee ID #',
+				field: 'id',
+				sort: 'asc'
+			},
+			{
+				label: 'First Name',
+				field: 'firstName',
+				sort: 'asc'
+			},
+			{
+				label: 'Last Name',
+				field: 'lastName',
+				sort: 'asc'
+			},
+			{
+				label: 'Job Title',
+				field: 'title',
+				sort: 'asc'
+			},
+			{
+				label: 'Salary',
+				field: 'salary',
+				sort: 'asc'
+			},
+		],
+		rows: [{
+			'id': 1,
+			'firstName': 'John',
+			'lastName' : 'Doe',
+			'title': 'Manager',
+			'salary': '$100,000',
+		}, ]
+	};
+
+	return ( 
+	<MDBTable responsive>
+		<MDBTableHead columns = {data.columns}/>
+		<MDBTableBody rows = {data.rows}/>
+	</MDBTable>
+	);
+};
 
 export default Directory;
