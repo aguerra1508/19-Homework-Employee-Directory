@@ -8,6 +8,7 @@ const Directory = () => {
 		responsive 
 		noBottomColumns
 		striped
+		order={['id', 'asc' ]}
 		paging={false} 
 		data={directory} />
 	);

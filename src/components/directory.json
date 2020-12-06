@@ -1,7 +1,8 @@
 {
 	"columns": [{
 			"label": "Employee ID",
-			"field": "id"
+			"field": "id",
+			"sort": "asc"
 		},
 		{
 			"label": "First Name",
