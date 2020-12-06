@@ -1,0 +1,104 @@
+{
+	"columns": [{
+			"label": "Employee ID",
+			"field": "id"
+		},
+		{
+			"label": "First Name",
+			"field": "firstName"
+		},
+		{
+			"label": "Last Name",
+			"field": "lastName"
+		},
+		{
+			"label": "Job Title",
+			"field": "title"
+		},
+		{
+			"label": "Salary",
+			"field": "salary"
+		}
+	],
+	"rows": [{
+		"id": 1,
+		"firstName": "Gustav",
+		"lastName": "Purpleson",
+		"title": "Manager",
+		"department": "Administration",
+		"salary": "$100,000"
+	},
+	{
+		"id": 2,
+		"firstName": "Natalya",
+		"lastName": "Undergrowth",
+		"title": "Supervisor",
+		"department": "Administration",
+		"salary": "$80,000"
+	},
+	{
+		"id": 3,
+		"firstName": "Archibald",
+		"lastName": "Northbottom",
+		"title": "Sales Lead",
+		"department": "Sales",
+		"salary": "$60,000"
+	},
+	{
+		"id": 4,
+		"firstName": "Chaplain",
+		"lastName": "Mondover",
+		"title": "Lead Accountant",
+		"department": "Finance",
+		"salary": "$60,000"
+	},
+	{
+		"id": 5,
+		"firstName": "Norman",
+		"lastName": "Gordon",
+		"title": "Salesperson",
+		"department": "Sales",
+		"salary": "$40,000"
+	},
+	{
+		"id": 6,
+		"firstName": "Justin",
+		"lastName": "Case",
+		"title": "Salesperson",
+		"department": "Sales",
+		"salary": "$40,000"
+	},
+	{
+		"id": 7,
+		"firstName": "Desmond",
+		"lastName": "Eagle",
+		"title": "Accountant",
+		"department": "Finance",
+		"salary": "$40,000"
+	},
+	{
+		"id": 8,
+		"firstName": "Lance",
+		"lastName": "Bogrol",
+		"title": "Accountant",
+		"department": "Finance",
+		"salary": "$40,000"
+	},
+	{
+		"id": 9,
+		"firstName": "Penny",
+		"lastName": "Tool",
+		"title": "Receptionist",
+		"department": "Front Desk",
+		"salary": "$30,000"
+	},
+	{
+		"id": 10,
+		"firstName": "Dylan",
+		"lastName": "Meringue",
+		"title": "Intern",
+		"department": "Intern",
+		"salary": "$20,000"
+	}
+]
+}

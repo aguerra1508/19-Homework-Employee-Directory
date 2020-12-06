@@ -4,7 +4,12 @@ import directory from "./directory.json"
 
 const Directory = () => {
 	return ( 
-		<MDBDataTable responsive noBottomColumns paging={false} searching={false} data={directory} />
+		<MDBDataTable 
+		responsive 
+		noBottomColumns
+		striped
+		paging={false} 
+		data={directory} />
 	);
 };
 
