@@ -26,11 +26,11 @@ The application can be accessed via the following link: https://aguerra1508.gith
 
 The user is first brought to the table list of all employees. The user may sort the employees by ID by clicking on the Employee ID header.
 
-![](images/LandingPage.png)
+![](LandingPage.png)
 
 The user may also use the search box to narrow down to a specific employee.
 
-![](images/Search.png)
+![](Search.png)
 
 ## Credits
 
